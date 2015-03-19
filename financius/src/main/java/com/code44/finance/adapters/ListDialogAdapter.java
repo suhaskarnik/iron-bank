@@ -16,6 +16,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ListDialogAdapter extends BaseAdapter {
+    private String dummy;
     private final Context context;
     private final List<ListDialogFragment.ListDialogItem> items;
 
